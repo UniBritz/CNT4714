@@ -1,0 +1,49 @@
+<!DOCTYPE html">
+
+<!--Brian Batinchok 
+CNT4714
+ March 27, 2016-->
+<html lang="en">
+
+
+	<head>
+   
+		<title>Project4</title>
+   
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+
+
+	<body>
+	
+		<h1>Welcome to the Project 4 Remote Database Management System </h1>
+
+		<hr>
+	
+		<p>You are connected to the Project4 database.</p>
+	
+		<p>Please enter any valid SQL query or update statement.</p>
+	
+		<p>If no query/update command is given the Execute button will display all supplier information in the database.</p>
+	
+		<p>All Execution results will appear below.</p>
+
+   
+
+		<form action="/Project4/Project4" method="post">
+
+	 
+			<textarea name="text" rows="5" cols="80" id="text">select * from suppliers;</textarea><br>
+	 
+			<input type = "submit" name= "submit" value = "Submit" />
+	 
+			<button type = "submit" formmethod = "get" formaction="/Project4/Project4">Clear</button>
+	 
+   
+		</form>
+   
+		<hr>
+	</body>
+
+</html>

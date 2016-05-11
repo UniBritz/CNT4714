@@ -1,0 +1,33 @@
+<web-app>
+
+	<!--General description of web app-->
+	
+	<display-name>
+ CNT4714 Project4
+ </display-name>
+	
+	<description>
+ Project4 Sp16 for CNT4714
+ </description>
+
+
+	<servlet>
+		
+		<servlet-name>Project4</servlet-name>
+		
+		<description>Project4 for CNT4714</description>
+		
+		<servlet-class>Project4</servlet-class>
+	
+	</servlet>
+	
+
+	<servlet-mapping>
+		
+		<servlet-name>Project4</servlet-name>
+		
+		<url-pattern>/Project4</url-pattern>
+	
+	</servlet-mapping>
+
+</web-app>

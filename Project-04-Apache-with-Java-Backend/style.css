@@ -1,0 +1,78 @@
+body
+{
+	
+	background-color: blue;
+	
+	color: white;
+	
+	text-align: center;
+
+}
+
+
+form textarea
+{
+	
+	background-color: yellow;
+
+}
+
+
+form button
+{
+	
+	background-color: black;
+	
+	color: yellow;
+
+}
+
+
+form input
+{
+	
+	background-color: black;
+	
+	color: yellow;
+
+}
+
+
+
+table
+{
+	
+	text-align: center;
+	
+	color: black;
+	
+	margin-left: auto;
+	
+	margin-right: auto;
+	
+
+}
+
+
+table th
+{
+	
+	background-color: red;
+
+}
+
+
+table td
+{
+	
+	background-color: white;
+
+}
+
+
+table, th, td
+{
+    
+	border: 1px solid;
+
+}
