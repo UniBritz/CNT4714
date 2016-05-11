@@ -1,0 +1,112 @@
+/* 
+Name: Brian Batinchok
+Course: CNT 4714 – Spring 2016
+Assignment title: A Three-Tier Distributed Web-Based Application Using PHP and Apache
+Due Date: April 25th, 2016
+*/
+
+a:active {
+    color: yellow;
+}
+
+a:hover {
+    color: yellow;
+} 
+
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: yellow;
+}
+
+body {
+    background-color: black;
+    color: yellow;
+    width: 960px;
+    margin: auto;
+}
+
+button {
+color: white;
+background-color:red;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+h1 {
+color: red;
+text-align: center;
+}
+
+table {
+    background-color: yellow;
+    color:black;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color: black;
+}
+
+th {
+
+    background-color: grey;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+#info {
+    float: left;
+    width: 700px;
+}
+
+#login {
+    float: left;
+    width: 200px;   
+}
+
+#login_button {
+    color: white;
+    background-color:red;
+}
+
+#logout {
+    color: white;
+    background-color:red;
+}
+
+#query_box {
+    float: left;
+    width: 700px;
+}
+
+#reset {
+    color: white;
+    background-color:red;
+}
+
+#results {
+    float: left;
+    width: 700px;
+}
+
+#submit_query {
+    color: white;
+    background-color:red;
+}
+
+#submit_update {
+    color: white;
+    background-color:red;
+}
+
+#welcome_box {
+    float: left;
+    width: 200px;
+}
